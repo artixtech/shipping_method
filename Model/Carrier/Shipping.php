@@ -88,6 +88,9 @@ class Shipping extends \Magento\Shipping\Model\Carrier\AbstractCarrier implement
         $method->setMethod($this->_code);
         $method->setMethodTitle($this->getConfigData('name'));
 
+        // cart subtotaltax
+        
+
         $amount = $this->getShippingPrice();
 
         $method->setPrice($amount);
