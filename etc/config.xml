@@ -8,7 +8,7 @@
                 <model>Excellence\Shipping\Model\Carrier\Shipping</model>
                 <name>Sample Shipping Method</name>
                 <price>10.00</price>
-                <title>Sample Shipping Method</title>
+                <title>Shipping</title>
                 <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.</specificerrmsg>
                 <handling_type>F</handling_type>
             </shipping>
